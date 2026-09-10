@@ -1,0 +1,53 @@
+[2026-09-10 15:22:15] Device: cuda
+[2026-09-10 15:22:15] AMP:    enabled
+[2026-09-10 15:22:15] 
+[2026-09-10 15:22:15] Train samples: 60,000
+[2026-09-10 15:22:15] Test  samples: 10,000
+[2026-09-10 15:22:16] ============================================================
+  ViT Model Summary
+============================================================
+  Image size:               28 x 28
+  Patch size:               7 x 7
+  # patches (+ cls):        16 + 1 = 17
+  Embedding dim:            256
+  # blocks (depth):         10
+  # heads:                  8
+  MLP ratio:                2.0
+  # classes:                10
+
+  Total parameters:         5,291,530
+  Trainable parameters:     5,291,530
+============================================================
+[2026-09-10 15:22:16]   Parameters: 20.19 MB  |  Buffers: 0.00 MB  |  Total: 20.19 MB
+[2026-09-10 15:22:16] 
+[2026-09-10 15:22:16] TensorBoard: logging to ./experiments/tensorboard/20260910_152216
+[2026-09-10 15:22:16] 
+[2026-09-10 15:22:26] Epoch 001/20  train_loss=2.3416  train_acc=10.56%  lr=6.00e-05  time=10.1s
+[2026-09-10 15:22:33] Epoch 002/20  train_loss=1.3139  train_acc=66.08%  lr=1.20e-04  time=7.1s
+[2026-09-10 15:22:39] Epoch 003/20  train_loss=0.7897  train_acc=88.74%  lr=1.80e-04  time=6.3s
+[2026-09-10 15:22:46] Epoch 004/20  train_loss=0.6787  train_acc=93.00%  lr=2.40e-04  time=6.6s
+[2026-09-10 15:22:53] Epoch 005/20  train_loss=0.6366  train_acc=94.60%  lr=3.00e-04  time=6.8s
+[2026-09-10 15:23:01] Epoch 006/20  train_loss=0.6177  train_acc=95.42%  lr=2.97e-04  time=8.5s
+[2026-09-10 15:23:08] Epoch 007/20  train_loss=0.5925  train_acc=96.43%  lr=2.87e-04  time=6.8s
+[2026-09-10 15:23:15] Epoch 008/20  train_loss=0.5793  train_acc=96.90%  lr=2.71e-04  time=6.6s
+[2026-09-10 15:23:21] Epoch 009/20  train_loss=0.5693  train_acc=97.30%  lr=2.51e-04  time=6.6s
+[2026-09-10 15:23:28] Epoch 010/20  train_loss=0.5567  train_acc=97.77%  lr=2.25e-04  time=6.9s
+[2026-09-10 15:23:29]   >> Test  loss=0.5657  acc=97.34%
+[2026-09-10 15:23:29]   >> New best accuracy: 97.34% — saved.
+[2026-09-10 15:23:37] Epoch 011/20  train_loss=0.5474  train_acc=98.20%  lr=1.97e-04  time=8.0s
+[2026-09-10 15:23:43] Epoch 012/20  train_loss=0.5379  train_acc=98.55%  lr=1.66e-04  time=6.5s
+[2026-09-10 15:23:50] Epoch 013/20  train_loss=0.5326  train_acc=98.74%  lr=1.35e-04  time=6.8s
+[2026-09-10 15:23:57] Epoch 014/20  train_loss=0.5248  train_acc=99.08%  lr=1.04e-04  time=6.8s
+[2026-09-10 15:24:04] Epoch 015/20  train_loss=0.5197  train_acc=99.27%  lr=7.58e-05  time=6.8s
+[2026-09-10 15:24:12] Epoch 016/20  train_loss=0.5142  train_acc=99.51%  lr=5.05e-05  time=8.6s
+[2026-09-10 15:24:19] Epoch 017/20  train_loss=0.5111  train_acc=99.62%  lr=2.96e-05  time=6.8s
+[2026-09-10 15:24:26] Epoch 018/20  train_loss=0.5077  train_acc=99.77%  lr=1.39e-05  time=7.0s
+[2026-09-10 15:24:33] Epoch 019/20  train_loss=0.5066  train_acc=99.81%  lr=4.27e-06  time=6.9s
+[2026-09-10 15:24:40] Epoch 020/20  train_loss=0.5060  train_acc=99.83%  lr=1.00e-06  time=7.5s
+[2026-09-10 15:24:41]   >> Test  loss=0.5408  acc=98.51%
+[2026-09-10 15:24:41]   >> New best accuracy: 98.51% — saved.
+[2026-09-10 15:24:41] 
+[2026-09-10 15:24:41] ==================================================
+[2026-09-10 15:24:41] Training finished in 2.4 min
+[2026-09-10 15:24:41] Best test accuracy: 98.51%
+[2026-09-10 15:24:41] ==================================================

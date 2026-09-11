@@ -43,7 +43,7 @@ This project implements a **Vision Transformer (ViT)** from scratch — no exter
 ## 📁 Project Structure
 
 ```
-mnist_vit/
+ViT_MNIST/
 ├── model.py              # Core ViT implementation
 │                         #   PatchEmbed, MultiHeadAttention, MLP, TransformerBlock, ViT
 ├── train.py              # Full-featured training
@@ -75,12 +75,12 @@ experiments/
 ### 1. Installation
 
 ```bash
-git clone https://github.com/your-username/mnist_vit.git
-cd mnist_vit
+git clone https://github.com/OPA067/ViT_MNIST.git
+cd ViT_MNIST
 
-# Create virtual environment (recommended)
-python -m venv .venv
-source .venv/bin/activate
+# Create and activate a conda environment (recommended)
+conda create -n ViT_MNIST python=3.10
+conda activate ViT_MNIST
 
 # Install dependencies
 pip install -r requirements.txt
